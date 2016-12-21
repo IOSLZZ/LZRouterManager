@@ -13,6 +13,10 @@
 		83E27A5B1E07DA7E000FE536 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83E27A591E07DA7E000FE536 /* Main.storyboard */; };
 		83E27A5D1E07DA7E000FE536 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83E27A5C1E07DA7E000FE536 /* Assets.xcassets */; };
 		83E27A601E07DA7E000FE536 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83E27A5E1E07DA7E000FE536 /* LaunchScreen.storyboard */; };
+		83E27A6B1E07DAFE000FE536 /* LZRouterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E27A691E07DAFE000FE536 /* LZRouterManager.m */; };
+		83E27A6C1E07DAFE000FE536 /* LZRouterManager.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83E27A6A1E07DAFE000FE536 /* LZRouterManager.plist */; };
+		83E27A6F1E07DBEC000FE536 /* Test1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E27A6E1E07DBEC000FE536 /* Test1ViewController.m */; };
+		83E27A721E07DC42000FE536 /* Test2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E27A711E07DC42000FE536 /* Test2ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,13 @@
 		83E27A5C1E07DA7E000FE536 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83E27A5F1E07DA7E000FE536 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83E27A611E07DA7E000FE536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83E27A681E07DAFE000FE536 /* LZRouterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZRouterManager.h; sourceTree = "<group>"; };
+		83E27A691E07DAFE000FE536 /* LZRouterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZRouterManager.m; sourceTree = "<group>"; };
+		83E27A6A1E07DAFE000FE536 /* LZRouterManager.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LZRouterManager.plist; sourceTree = "<group>"; };
+		83E27A6D1E07DBEC000FE536 /* Test1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test1ViewController.h; sourceTree = "<group>"; };
+		83E27A6E1E07DBEC000FE536 /* Test1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test1ViewController.m; sourceTree = "<group>"; };
+		83E27A701E07DC42000FE536 /* Test2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test2ViewController.h; sourceTree = "<group>"; };
+		83E27A711E07DC42000FE536 /* Test2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test2ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +69,7 @@
 		83E27A4F1E07DA7E000FE536 /* LZRouterManager */ = {
 			isa = PBXGroup;
 			children = (
+				83E27A671E07DAFE000FE536 /* LZRouterManager */,
 				83E27A531E07DA7E000FE536 /* AppDelegate.h */,
 				83E27A541E07DA7E000FE536 /* AppDelegate.m */,
 				83E27A561E07DA7E000FE536 /* ViewController.h */,
@@ -67,6 +79,10 @@
 				83E27A5E1E07DA7E000FE536 /* LaunchScreen.storyboard */,
 				83E27A611E07DA7E000FE536 /* Info.plist */,
 				83E27A501E07DA7E000FE536 /* Supporting Files */,
+				83E27A6D1E07DBEC000FE536 /* Test1ViewController.h */,
+				83E27A6E1E07DBEC000FE536 /* Test1ViewController.m */,
+				83E27A701E07DC42000FE536 /* Test2ViewController.h */,
+				83E27A711E07DC42000FE536 /* Test2ViewController.m */,
 			);
 			path = LZRouterManager;
 			sourceTree = "<group>";
@@ -77,6 +93,16 @@
 				83E27A511E07DA7E000FE536 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83E27A671E07DAFE000FE536 /* LZRouterManager */ = {
+			isa = PBXGroup;
+			children = (
+				83E27A681E07DAFE000FE536 /* LZRouterManager.h */,
+				83E27A691E07DAFE000FE536 /* LZRouterManager.m */,
+				83E27A6A1E07DAFE000FE536 /* LZRouterManager.plist */,
+			);
+			path = LZRouterManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83E27A601E07DA7E000FE536 /* LaunchScreen.storyboard in Resources */,
+				83E27A6C1E07DAFE000FE536 /* LZRouterManager.plist in Resources */,
 				83E27A5D1E07DA7E000FE536 /* Assets.xcassets in Resources */,
 				83E27A5B1E07DA7E000FE536 /* Main.storyboard in Resources */,
 			);
@@ -150,7 +177,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				83E27A581E07DA7E000FE536 /* ViewController.m in Sources */,
+				83E27A6F1E07DBEC000FE536 /* Test1ViewController.m in Sources */,
 				83E27A551E07DA7E000FE536 /* AppDelegate.m in Sources */,
+				83E27A721E07DC42000FE536 /* Test2ViewController.m in Sources */,
+				83E27A6B1E07DAFE000FE536 /* LZRouterManager.m in Sources */,
 				83E27A521E07DA7E000FE536 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
